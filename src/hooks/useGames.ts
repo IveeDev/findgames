@@ -3,9 +3,10 @@ import apiClient from "../services/api-client";
 import { CanceledError } from "axios";
 // import { Game } from "../components/GameGrid";
 
-interface Game {
+export interface Game {
   id: number;
   name: string;
+  background_image: string;
 }
 
 interface FetchGameResponse {
