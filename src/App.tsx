@@ -7,8 +7,12 @@ function App() {
   return (
     <Grid
       templateAreas={{
-        base: `"nav" "main"`,
-        lg: `"nav nav" "aside main"`,
+        base: `"nav" "main"`, // Smaller screen
+        lg: `"nav nav" "aside main"`, // Larger Screen
+      }}
+      templateColumns={{
+        base: "1fr",
+        lg: "200px 1fr", //aside takes 200px width while the other(Where we have our grid) expands
       }}
     >
       <GridItem area="nav">
@@ -16,7 +20,7 @@ function App() {
       </GridItem>
 
       <Show above="lg">
-        <GridItem area="aside">
+        <GridItem area="aside" paddingX={5}>
           <GenreList />
         </GridItem>
       </Show>
