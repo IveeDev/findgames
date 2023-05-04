@@ -5,7 +5,7 @@ import { FetchResponse } from "../services/api-client";
 import apiClient from "../services/api-client";
 // import useData from "./useData";
 
-interface Platform {
+export interface Platform {
   id: number;
   name: string;
   slug: string;
