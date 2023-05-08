@@ -20,6 +20,7 @@ class APIClient<T> {
     this.endPoint = endPoint;
   }
 
+  // To get all games, posts etc
   getAll = (config: AxiosRequestConfig) => {
     // We did this because of the query parameter when fetching the games. It is optional
     return axiosInstance
@@ -30,6 +31,13 @@ class APIClient<T> {
   post = (data: T) => {
     return axiosInstance
       .post<FetchResponse<T>>(this.endPoint, data)
+      .then((res) => res.data);
+  };
+
+  // Get a single game or post etc
+  get = (id: number | string) => {
+    return axiosInstance
+      .get<T>(this.endPoint + "/" + id)
       .then((res) => res.data);
   };
 }
