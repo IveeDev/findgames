@@ -20,16 +20,16 @@ Download Game Discoverer now and embark on a journey through the vast universe o
 
 ## Table of Contents
 
-. Project Overview
-. Demo
-. Technologies Used
-. Installation
-. Usage
-. Features
-. API Integration
-. Contributing
-. License
-. Contact
+- [Project Overview](#project-overview)
+- [Demo](#demo)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [API Integration](#api-integration)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
 **Project Overview**
 
