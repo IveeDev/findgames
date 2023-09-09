@@ -43,12 +43,12 @@ https://findgames.vercel.app
 
 List the technologies and libraries used in your project:
 
-. React
-. Typescript
-. Zustand (for state management)
-. Chakra UI (for user interface components)
-. React Icons (for icons)
-. RAWG API (for fetching game data)
+- React
+- Typescript
+- Zustand (for state management)
+- Chakra UI (for user interface components)
+- React Icons (for icons)
+- RAWG API (for fetching game data)
 
 **Installation**
 
