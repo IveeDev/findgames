@@ -20,7 +20,6 @@ Download Game Discoverer now and embark on a journey through the vast universe o
 
 ## Table of Contents
 
-. Table of Contents
 . Project Overview
 . Demo
 . Technologies Used
